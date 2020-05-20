@@ -1,5 +1,10 @@
 {
-
+	
+"repository": {
+  "type": "git",
+  "url": "git://github.com/username/repository.git"
+}
+	
 "name": "ap_tests",
 "version": "1.0.0",
 "description": "testing Stage Demo",
