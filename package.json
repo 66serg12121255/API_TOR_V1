@@ -12,7 +12,7 @@
 },
 
 "author": "",
-"license": "",
+"license": "ISC",
 "dependencies": {
 
 	"newman": "^3.9.3"
