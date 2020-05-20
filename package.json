@@ -15,7 +15,7 @@
 "license": "ISC",
 "dependencies": {
 
-	"newman": "^3.9.3"
+	"newman": "^5.0.0"
 }
 
 
