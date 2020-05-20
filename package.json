@@ -6,7 +6,8 @@
 
 "scripts":{
 
-	"api-tests": "newman run 'TESTS TOR Browser  V1.postman_collection.json' -e 'Skeleton TOR VPN IOS (V1).postman_environment.json'"
+	"api-tests": "newman run 'TESTS TOR Browser  V1.postman_collection.json' -e 'Skeleton TOR VPN IOS (V1).postman_environment.json' --reporters cli, junit --reporter-junit-export newman.xml
+"
 },
 
 "author": "",
@@ -15,7 +16,6 @@
 
 	"newman": "^5.0.0"
 }
-
 
 
 }
