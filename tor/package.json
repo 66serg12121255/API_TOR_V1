@@ -4,10 +4,11 @@
 	"description": "testing Stage Demo",
 	"private": true,
 	"scripts": {
-		"api-tests_v1": "newman run 'TESTS TOR Browser  V1.postman_collection.json' -e 'Skeleton TOR VPN IOS (V1).postman_environment.json'"
+		"api-tests_v1": "newman run 'TESTS TOR Browser  V1.postman_collection.json' -e 'Skeleton TOR VPN IOS (V1).postman_environment.json'",
+		"api-tests_v2": "newman run 'TESTS TOR Browser  V1.postman_collection.json' -e 'Skeleton TOR VPN IOS (V2).postman_environment.json'"
+
 	},
-	"api-tests_v2": "newman run 'TESTS TOR Browser  V1.postman_collection.json' -e 'Skeleton TOR VPN IOS (V2).postman_environment.json'"
-	},
+
 	"author": "",
 	"license": "",
 	"dependencies": {
