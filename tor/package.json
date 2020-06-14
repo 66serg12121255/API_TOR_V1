@@ -2,6 +2,7 @@
 	"name": "ap.tests",
 	"version": "1.0.0",
 	"description": "testing Stage Demo",
+	"license": "UNLICENSED",
 	"scrips": {
 		"api-tests": "newman run TESTS TOR Browser  V1.postman_collection.json -e Skeleton TOR VPN IOS (V1).postman_environment.json"
 	},
